@@ -1,0 +1,41 @@
+
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.css">
+
+
+<div id="ldavis_el1387628102305252568951839041"></div>
+<script type="text/javascript">
+
+var ldavis_el1387628102305252568951839041_data = {"mdsDat": {"x": [0.20894652460481852, -0.20894652460481852], "y": [0.0, 0.0], "topics": [1, 2], "cluster": [1, 1], "Freq": [68.26914461473469, 31.730855385265322]}, "tinfo": {"Category": ["Default", "Default", "Default", "Default", "Default", "Default", "Default", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic1", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2", "Topic2"], "Freq": [3.0, 4.0, 2.0, 2.0, 2.0, 2.0, 2.0, 4.7370480464530145, 2.879382146676103, 1.950549196033155, 1.950549196033155, 1.02170992951056, 1.0217071128700252, 0.09288329537092709, 3.883468179090203, 1.0419154104176487, 1.0419125381182621, 0.09471873678939592, 0.09471873678939592, 0.09471873697203656, 0.09471873887612328], "Term": ["servicio", "reglamento", "frecuencias", "atribuci\u00f3n", "nacional", "plan", "plan nacional", "reglamento", "nacional", "plan nacional", "plan", "atribuci\u00f3n", "frecuencias", "servicio", "servicio", "frecuencias", "atribuci\u00f3n", "plan nacional", "plan", "nacional", "reglamento"], "Total": [3.0, 4.0, 2.0, 2.0, 2.0, 2.0, 2.0, 4.831766785329138, 2.9741008836481395, 2.0452679328225507, 2.0452679328225507, 2.0636224676288224, 2.063622523287674, 3.9763514744611297, 3.9763514744611297, 2.063622523287674, 2.0636224676288224, 2.0452679328225507, 2.0452679328225507, 2.9741008836481395, 4.831766785329138], "loglift": [7.0, 6.0, 5.0, 4.0, 3.0, 2.0, 1.0, 0.3619, 0.3493, 0.3343, 0.3343, -0.3213, -0.3213, -3.3751, 1.1242, 0.4645, 0.4645, -1.9245, -1.9245, -2.2989, -2.7842], "logprob": [7.0, 6.0, 5.0, 4.0, 3.0, 2.0, 1.0, -1.0586, -1.5564, -1.9459, -1.9459, -2.5925, -2.5925, -4.9904, -0.4911, -1.8068, -1.8068, -4.2047, -4.2047, -4.2047, -4.2047]}, "token.table": {"Topic": [1, 2, 1, 2, 1, 1, 1, 1, 2], "Freq": [0.48458476086909275, 0.48458476086909275, 0.4845847477991485, 0.4845847477991485, 1.0087082171604387, 0.9778669913627995, 0.9778669913627995, 1.0348181570314352, 1.005947292559714], "Term": ["atribuci\u00f3n", "atribuci\u00f3n", "frecuencias", "frecuencias", "nacional", "plan", "plan nacional", "reglamento", "servicio"]}, "R": 7, "lambda.step": 0.01, "plot.opts": {"xlab": "PC1", "ylab": "PC2"}, "topic.order": [1, 2]};
+
+function LDAvis_load_lib(url, callback){
+  var s = document.createElement('script');
+  s.src = url;
+  s.async = true;
+  s.onreadystatechange = s.onload = callback;
+  s.onerror = function(){console.warn("failed to load library " + url);};
+  document.getElementsByTagName("head")[0].appendChild(s);
+}
+
+if(typeof(LDAvis) !== "undefined"){
+   // already loaded: just create the visualization
+   !function(LDAvis){
+       new LDAvis("#" + "ldavis_el1387628102305252568951839041", ldavis_el1387628102305252568951839041_data);
+   }(LDAvis);
+}else if(typeof define === "function" && define.amd){
+   // require.js is available: use it to load d3/LDAvis
+   require.config({paths: {d3: "https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min"}});
+   require(["d3"], function(d3){
+      window.d3 = d3;
+      LDAvis_load_lib("https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.js", function(){
+        new LDAvis("#" + "ldavis_el1387628102305252568951839041", ldavis_el1387628102305252568951839041_data);
+      });
+    });
+}else{
+    // require.js not available: dynamically load d3 & LDAvis
+    LDAvis_load_lib("https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js", function(){
+         LDAvis_load_lib("https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.js", function(){
+                 new LDAvis("#" + "ldavis_el1387628102305252568951839041", ldavis_el1387628102305252568951839041_data);
+            })
+         });
+}
+</script>

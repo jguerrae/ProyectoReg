@@ -1,0 +1,2 @@
+*Hay muy pocas muestras por año
+*Si en un año no hay modelo es porque hay muy pocas muestras (<10) o no hay 

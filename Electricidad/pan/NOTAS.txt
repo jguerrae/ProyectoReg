@@ -1,0 +1,3 @@
+*tema 6 y 11 de modelo general son ruido
+*la mayoría de modelos presentan bastante ruido debido a problemas con las letras de las resoluciones a la hora de hacer el scraping. Pero se logra entender
+el tema de cada topico debido a la gran cantidad de resoluciones por año.
