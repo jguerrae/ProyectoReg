@@ -1,4 +1,4 @@
-TELE
+TELECOMUNICACIONES
 *Pocas resoluciones (preguntar si se le aplica el modelo):
 Costa Rica
 Uruguay
@@ -9,19 +9,26 @@ Chile
 Colombia
 Honduras
 Mex
+Panamá
+Paraguay
 Perú
 Rep Dom
 
 
-
-
-
-ELEC
+ELECTRICIDAD
 *Pocas resoluciones (preguntar si se le aplica el modelo):
+Chile
+Costa Rica
+Honduras
+Nicaragua
 
 *Modelos:
-Colombia
-Perú
-Salvador
-Panamá
-Rep Dom
+Colombia - Pau
+Perú - Pau
+Guatemala - Pau
+Mexico - Pau
+Panamá - Pau
+Perú - Pau 
+Rep Dom - Pau
+Salvador - Pau 
+Uruguay - Pau

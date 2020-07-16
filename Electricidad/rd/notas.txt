@@ -1,0 +1,8 @@
+*Se recomienda poner el parámetro lambda en 1 (por la poca cantidad de muestra, se repiten muchas palabras como los meses)
+
+**********************************************************************************************
+año 2006 -> se separaron en 2 temas (aunque en realidad es 1), no hay suficientemente muestra.
+año 2007 lo mismo anterior.
+año 2008 lo mismo.
+año 2010 lo mismo.
+año 2013 lo mismo.
