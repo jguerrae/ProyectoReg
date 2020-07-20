@@ -1,7 +1,7 @@
 TELECOMUNICACIONES
 *Pocas resoluciones (preguntar si se le aplica el modelo):
-Costa Rica
-Uruguay
+Costa Rica   OK
+Uruguay      OK
 
 *Modelos:
 Brasil
@@ -17,10 +17,10 @@ Rep Dom
 
 ELECTRICIDAD
 *Pocas resoluciones (preguntar si se le aplica el modelo):
-Chile
-Costa Rica
-Honduras
-Nicaragua
+Chile : Definitivamente muy pocas resoluciones: 40
+Costa Rica: 20 resoluciones, muy pocas
+Honduras: 32 resoluciones, no tiene resumenes
+Nicaragua: 59 resoluciones, no resumenes
 
 *Modelos:
 Colombia - Pau
