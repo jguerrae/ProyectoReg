@@ -26,19 +26,17 @@ Nicaragua: 59 resoluciones, no resumenes
 Colombia - Pau
 Perú - Pau
 Guatemala - Pau
-Mexico - Pau
+Mexico - Jorge
 Panamá - Pau
 Perú - Pau 
 Rep Dom - Pau
 Salvador - Pau 
-Uruguay - Pau
+Uruguay - Jorge
 
 
-
-
-0) Terminar México y Uruguay
+0) Terminar México y Uruguay: CHECK
 1) Revisar manualmente si se le puede aplicar los modelos: CHECK
 2) Revisión de temas cuando ya los tiene la agencia:
 
-Elect: Perú (solo hay 2 categorias), México OK, Uruguay OK
-Telec: 
+Elect: Perú (solo hay 2 categorias), México OK, Uruguay OK, Republica Dominincana OK
+Telec: Costa Rica OK, Honduras OK --> no es tan claro, tienen demasiadas categorias
